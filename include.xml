@@ -49,7 +49,7 @@
 
 	<section if="android">
 		<config:android>
-			<application android:appCategory="game" if="${lime &ge; 8.2.0}" />
+			<application android:appCategory="game" />
 		</config:android>
 	</section>
 </project>
